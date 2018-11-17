@@ -1,5 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
+require 'soma.php';
 
 class SomaTest extends TestCase {
 
