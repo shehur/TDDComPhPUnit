@@ -4,12 +4,12 @@ require 'soma.php';
 
 class SomaTest extends TestCase {
 
-	public function testSomarComParametros() {
-		$this->assertEquals(5, somar(2, 3));
+	public function testSomaComParametros() {
+		$this->assertEquals(5, soma(2, 3));
 	}
 
-	public function testSomarSemParametros() {
-		$this->assertEquals(0, somar());
+	public function testSomaSemParametros() {
+		$this->assertEquals(0, soma());
 	}
 
 }
